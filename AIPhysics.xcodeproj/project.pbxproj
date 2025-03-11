@@ -100,7 +100,6 @@
 		DEF509052D1E921700C41552 /* AssistantAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF508392D1E921700C41552 /* AssistantAssembly.swift */; };
 		DEF509062D1E921700C41552 /* GlobalDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF508192D1E921700C41552 /* GlobalDefinitions.swift */; };
 		DEF509072D1E921700C41552 /* AssistantCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF508622D1E921700C41552 /* AssistantCameraView.swift */; };
-		DEF509082D1E921700C41552 /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF507E62D1E921700C41552 /* BranchManager.swift */; };
 		DEF509092D1E921700C41552 /* PaygateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5088A2D1E921700C41552 /* PaygateViewModel.swift */; };
 		DEF5090A2D1E921700C41552 /* OnboardingWelcome3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF508792D1E921700C41552 /* OnboardingWelcome3View.swift */; };
 		DEF5090B2D1E921700C41552 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5085E2D1E921700C41552 /* CameraService.swift */; };
@@ -150,7 +149,6 @@
 		DEF509372D1E921700C41552 /* ARTHelpfulCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5082C2D1E921700C41552 /* ARTHelpfulCell.swift */; };
 		DEF509382D1E921700C41552 /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF508AD2D1E921700C41552 /* IAPProduct.swift */; };
 		DEF509392D1E921700C41552 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF507F02D1E921700C41552 /* GradientView.swift */; };
-		DEF5093A2D1E921700C41552 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF507E72D1E921700C41552 /* FacebookManager.swift */; };
 		DEF5093B2D1E921700C41552 /* AccountTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF5083F2D1E921700C41552 /* AccountTitleCell.swift */; };
 		DEF5093C2D1E921700C41552 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF507FD2D1E921700C41552 /* UITapGestureRecognizer+Extension.swift */; };
 		DEF5093D2D1E921700C41552 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF508122D1E921700C41552 /* ScreenSize.swift */; };
@@ -183,8 +181,6 @@
 		DEF507D82D1E921100C41552 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DEF507D92D1E921100C41552 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DEF507E52D1E921700C41552 /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
-		DEF507E62D1E921700C41552 /* BranchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
-		DEF507E72D1E921700C41552 /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		DEF507E82D1E921700C41552 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DEF507EA2D1E921700C41552 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
 		DEF507EB2D1E921700C41552 /* RxActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxActivityIndicator.swift; sourceTree = "<group>"; };
@@ -439,8 +435,6 @@
 			isa = PBXGroup;
 			children = (
 				DEF507E52D1E921700C41552 /* AmplitudeManager.swift */,
-				DEF507E62D1E921700C41552 /* BranchManager.swift */,
-				DEF507E72D1E921700C41552 /* FacebookManager.swift */,
 				DEF507E82D1E921700C41552 /* FirebaseManager.swift */,
 			);
 			path = Analytics;
@@ -1332,7 +1326,6 @@
 				DEF509052D1E921700C41552 /* AssistantAssembly.swift in Sources */,
 				DEF509062D1E921700C41552 /* GlobalDefinitions.swift in Sources */,
 				DEF509072D1E921700C41552 /* AssistantCameraView.swift in Sources */,
-				DEF509082D1E921700C41552 /* BranchManager.swift in Sources */,
 				DEF509092D1E921700C41552 /* PaygateViewModel.swift in Sources */,
 				DEF5090A2D1E921700C41552 /* OnboardingWelcome3View.swift in Sources */,
 				DEF5090B2D1E921700C41552 /* CameraService.swift in Sources */,
@@ -1382,7 +1375,6 @@
 				DEF509372D1E921700C41552 /* ARTHelpfulCell.swift in Sources */,
 				DEF509382D1E921700C41552 /* IAPProduct.swift in Sources */,
 				DEF509392D1E921700C41552 /* GradientView.swift in Sources */,
-				DEF5093A2D1E921700C41552 /* FacebookManager.swift in Sources */,
 				DEF5093B2D1E921700C41552 /* AccountTitleCell.swift in Sources */,
 				DEF5093C2D1E921700C41552 /* UITapGestureRecognizer+Extension.swift in Sources */,
 				DEF5093D2D1E921700C41552 /* ScreenSize.swift in Sources */,
@@ -1424,7 +1416,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1441,7 +1433,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.science.physics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1464,7 +1456,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1481,7 +1473,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.science.physics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
