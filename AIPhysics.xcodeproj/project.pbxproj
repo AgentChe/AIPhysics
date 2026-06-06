@@ -92,7 +92,6 @@
 		DEF508FD2D1E921700C41552 /* AssistantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF508A22D1E921700C41552 /* AssistantManager.swift */; };
 		DEF508FE2D1E921700C41552 /* AssistantMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF508222D1E921700C41552 /* AssistantMainTableView.swift */; };
 		DEF508FF2D1E921700C41552 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF507F92D1E921700C41552 /* UIApplication+Extension.swift */; };
-		DEF509002D1E921700C41552 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF507E52D1E921700C41552 /* AmplitudeManager.swift */; };
 		DEF509012D1E921700C41552 /* AssistantMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF508262D1E921700C41552 /* AssistantMainViewController.swift */; };
 		DEF509022D1E921700C41552 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF507FA2D1E921700C41552 /* UIColor+Extension.swift */; };
 		DEF509032D1E921700C41552 /* UIView+RxExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF507FE2D1E921700C41552 /* UIView+RxExtension.swift */; };
@@ -180,7 +179,6 @@
 		DEF507D52D1E921100C41552 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		DEF507D82D1E921100C41552 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DEF507D92D1E921100C41552 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DEF507E52D1E921700C41552 /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
 		DEF507E82D1E921700C41552 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DEF507EA2D1E921700C41552 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
 		DEF507EB2D1E921700C41552 /* RxActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxActivityIndicator.swift; sourceTree = "<group>"; };
@@ -434,7 +432,6 @@
 		DEF507E92D1E921700C41552 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				DEF507E52D1E921700C41552 /* AmplitudeManager.swift */,
 				DEF507E82D1E921700C41552 /* FirebaseManager.swift */,
 			);
 			path = Analytics;
@@ -1212,9 +1209,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AIPhysics/Pods-AIPhysics-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AIPhysics/Pods-AIPhysics-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1229,9 +1230,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AIPhysics/Pods-AIPhysics-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AIPhysics/Pods-AIPhysics-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1318,7 +1323,6 @@
 				DEF508FD2D1E921700C41552 /* AssistantManager.swift in Sources */,
 				DEF508FE2D1E921700C41552 /* AssistantMainTableView.swift in Sources */,
 				DEF508FF2D1E921700C41552 /* UIApplication+Extension.swift in Sources */,
-				DEF509002D1E921700C41552 /* AmplitudeManager.swift in Sources */,
 				DEF509012D1E921700C41552 /* AssistantMainViewController.swift in Sources */,
 				DEF509022D1E921700C41552 /* UIColor+Extension.swift in Sources */,
 				DEF509032D1E921700C41552 /* UIView+RxExtension.swift in Sources */,
@@ -1416,7 +1420,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1433,7 +1437,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.science.physics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1456,7 +1460,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1473,7 +1477,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.science.physics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
